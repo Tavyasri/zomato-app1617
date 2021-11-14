@@ -75,7 +75,7 @@ class Header extends React.Component {
             password: this.state.password
        }
         axios({
-            url: ` https://fierce-fortress-94759.herokuapp.com/login`,
+            url: ` https://powerful-falls-44108.herokuapp.com/login`,
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
             data: user
@@ -108,7 +108,7 @@ class Header extends React.Component {
          };
 
          axios({
-            url: ' https://fierce-fortress-94759.herokuapp.com/signup',
+            url: ' https://powerful-falls-44108.herokuapp.com/signup',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: userdetails
