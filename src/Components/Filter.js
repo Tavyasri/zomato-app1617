@@ -32,7 +32,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: ' https://fierce-fortress-94759.herokuapp.com/filter',
+            url: ' https://powerful-falls-44108.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -47,7 +47,7 @@ class Filter extends React.Component {
             .catch()
 
             axios({
-                url: ' https://fierce-fortress-94759.herokuapp.com/locations',
+                url: ' https://powerful-falls-44108.herokuapp.com/locations',
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
             })
@@ -72,7 +72,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: ' https://fierce-fortress-94759.herokuapp.com/filter',
+            url: ' https://powerful-falls-44108.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -103,7 +103,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: ' https://fierce-fortress-94759.herokuapp.com/filter',
+            url: ' https://powerful-falls-44108.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -134,7 +134,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: ' https://fierce-fortress-94759.herokuapp.com/filter',
+            url: ' https://powerful-falls-44108.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -175,7 +175,7 @@ class Filter extends React.Component {
         };
 
         axios({
-            url: ' https://fierce-fortress-94759.herokuapp.com/filter',
+            url: ' https://powerful-falls-44108.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
