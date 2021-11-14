@@ -41,7 +41,7 @@ class Details extends React.Component {
         const { restaurants } = qs;
 
         axios({
-            url: ` https://fierce-fortress-94759.herokuapp.com/restaurant/${restaurants}`,
+            url: ` https://powerful-falls-44108.herokuapp.com/restaurant/${restaurants}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -57,7 +57,7 @@ class Details extends React.Component {
     handleOrder = () => {
         const { restaurantId } = this.state;
         axios({
-            url: `http://localhost:1617/menuitems/${restaurantId}`,
+            url: `https://powerful-falls-44108.herokuapp.com/menuitems/${restaurantId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
